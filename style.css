@@ -1,0 +1,11 @@
+.todo { padding-left: 0; display: inline; }
+.todo li { display: inline; }
+.todo li:not(:last-child):after {
+  content: ",";
+}
+.todo li:last-child:before {
+  content: "and ";
+}
+.todo li:last-child:after {
+  content: ".";
+}
