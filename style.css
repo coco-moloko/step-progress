@@ -1,5 +1,0 @@
-body { font-family: sans-serif; }
-label { color: #aaa; }
-input[type="checkbox"]:checked + label {
-  color: steelblue;
-}
